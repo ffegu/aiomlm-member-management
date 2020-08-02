@@ -1,0 +1,27 @@
+{
+    "name": "aiomlm/member-management",
+    "description": "Members management system for All in one mlm software(aiomlm)",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pran pegu",
+            "email": "ffegu0617@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Aiomlm\\Member\\": "src/"
+        }
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                 "Aiomlm\\Member\\MemberServiceProvider"
+            ]
+        }
+    }
+}
